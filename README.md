@@ -69,7 +69,7 @@ You should see your file appear in Files when you log into your Cloudstor accoun
 
 * On the [Cloudstor](https://cloudstor.aarnet.edu.au/) web interface, navigate to the file or directory that you wish to share
 * Click on the share icon (next to the three dots). This will open a pane to the right of the window
-* Under Sharing, click the Public links and click the Create public link button. A small window will appear. Fill details in this window:
+* Under "Sharing", click "Public links" and click the "Create public link" button. A small window will appear. Fill details in this window:
   * __Do not set a password if you intend to use CLI interface to download the data__. 
   * Fill in the rest of the form as desired, or leave as default
   * Click share
