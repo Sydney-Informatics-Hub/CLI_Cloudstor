@@ -56,7 +56,7 @@ tar -zcvf my_directory my_directory.tar.gz
 Here is where you will use the app password generated in [Create app password](#Create-app-password). In your CLI platform, to upload a file (e.g. `my_directory.tar.gz`) to Cloudstor:
 
 ```
-curl --user 'your.email@sydney.edu.au:THE-BIG-LONG_PASSWORD' -T my_file.txt 'https://cloudstor.aarnet.edu.au/plus/remote.php/webdav/'
+curl --user 'your.email@sydney.edu.au:THE-BIG-LONG_PASSWORD' -T my_directory.tar.gz 'https://cloudstor.aarnet.edu.au/plus/remote.php/webdav/'
 ```
 
 Note: We recommend submitting this within a job for very large files.
@@ -91,7 +91,7 @@ tar -xvf my_directory.tar.gz
 It's good practice to verify that the files you have downloaded are not corrupt. To do this, you will need the checksum (`.md5` file) for a file. 
 
 ```
-md5sum -c file.txt.md5
+md5sum -c my_directory.tar.gz.md5
 ```
 
 The `.md5` file contains two columns: the first is a unique hash for the file. The second is the path to the file. The command below will only work if you use the correct path relative to what's in the .md5 file. The command will print the result of the verification to stdout. 
