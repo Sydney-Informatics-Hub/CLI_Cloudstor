@@ -29,7 +29,7 @@ Check that you have enough space in Cloudstor to upload your data.
 
 ### Checksums
 
-We recommend creating and including checksum file (`.md5`) anytime you intend to share or move data around. Checksums allows you, your collaborator or anyone who is downloading the file to validate the file and confirm that the transfer completed successfully. We __highly__ recommend doing this for research data (e.g. sequencing data). 
+We recommend creating and including a checksum file (`.md5`) anytime you intend to share or move data around. Checksums allows the downloader to validate the file and confirm that the transfer completed successfully. We __highly__ recommend doing this for research data (e.g. sequencing data). 
 
 You can skip this step if you already have this file. Otherwise, in your CLI platform with the data (`file.txt`) to upload, create a checksum file by:
 
@@ -42,7 +42,7 @@ Note: We recommend submitting this within a job for very large files.
 
 ### Preparing multiple files for transfer
 
-We recommend tar archiving files to upload as this makes downloading them more manageable. For `my_directory` containing multiple files (e.g. `file.txt`, `file.txt.md5`) to upload:
+We recommend tar archiving multiple files to upload as this makes downloading them more manageable. For `my_directory` containing multiple files (e.g. `file.txt`, `file.txt.md5`) to upload:
 
 ```
 # Change to the the path where my_directory is located
