@@ -25,7 +25,7 @@ Cloudstor app passwords are a way to control access between your Cloudstor accou
 Check that you have enough space in Cloudstor to upload your data.
 
 * In the Cloudstor web interface: Click the cog icon (settings) at the top right hand side of the page. The top of the page will tell you amount of disk used vs disk available.
-* In your CLI platform, check the size of the data to upload, e.g. using `df -sh </path/to/directory_to_upload>`
+* In your CLI platform, check the size of the data to upload, e.g. using `df -sh </path/to/my_directory>`
 
 ### Checksums
 
