@@ -1,10 +1,13 @@
 #!/bin/bash
 
+## -----------------------------------------------------------------------
 ## See the full user guide here:https://github.com/Sydney-Informatics-Hub/CLI_Cloudstor
-## Acknowledgements (and co-authorship, where appropriate) are an important way for us to demonstrate the value we bring to your research. Your research outcomes are vital for ongoing funding of the Sydney Informatics Hub and national compute facilities.
-
+## Acknowledgements (and co-authorship, where appropriate) are an important way for us 
+## to demonstrate the value we bring to your research. Your research outcomes are vital 
+## for ongoing funding of the Sydney Informatics Hub and national compute facilities.
 ## Suggested acknowledgements
 ## The authors acknowledge the technical assistance provided by the Sydney Informatics Hub, a Core Research Facility of the University of Sydney.
+## -----------------------------------------------------------------------
 
 #PBS -P <DashR>
 #PBS -l walltime=24:00:00
