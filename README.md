@@ -6,7 +6,7 @@
 
 Note: Researchers have access to 1TB of storage on Cloudstor.
 
-## Create app password
+## Create an app password
 
 Cloudstor app passwords are a way to control access between your Cloudstor account and other devices (e.g. a CLI platform). This step only needs to be done once per device - you can use the same app password to access your account for future transfers. 
 
