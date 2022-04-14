@@ -1,0 +1,18 @@
+#!/bin/bash
+
+## See the full user guide here:https://github.com/Sydney-Informatics-Hub/CLI_Cloudstor
+
+#PBS -P <DashR>
+#PBS -l walltime=24:00:00
+#PBS -l ncpus=1
+#PBS -l mem=8GB
+#PBS -W umask=022
+#PBS -q dtq
+#PBS -o ./Cloudstor.o
+#PBS -e ./Cloudstor.e
+
+file=/path/to/file
+
+cd $PBS_O_WORKDIR
+
+curl --user 'your.email@sydney.edu.au:THE-BIG-LONG-PASSWORD' -T ${file} 'https://cloudstor.aarnet.edu.au/plus/remote.php/webdav/'
