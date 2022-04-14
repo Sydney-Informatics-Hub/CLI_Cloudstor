@@ -13,10 +13,10 @@ Cloudstor app passwords are a way to control access to your cloudstor account fr
 * Log into the [Cloudstor](https://cloudstor.aarnet.edu.au/) web interface using your institutional credentials
 * Click the cog icon (settings) at the top right side of the page
 * Click "Security" on the left hand pane
-* Under "App Passwords", type the name of your app (your CLI platform, e.g. artemis) in the text box and click "Create new app password"
+* Under "App Passwords", type the name of your app (your CLI platform, e.g. Artemis) in the text box and click "Create new app password"
 * Copy the "Password/Token" that was generated. This will be used to access Cloudstor via the CLI
 
-![image](https://user-images.githubusercontent.com/49257820/163290618-f253e16d-d176-4d9f-8fd4-451c6f8d2f43.png)
+![image](https://user-images.githubusercontent.com/49257820/163305774-26896f75-5e0f-4faf-bc15-25c8d2f71abb.png)
 
 ## Data upload
 
