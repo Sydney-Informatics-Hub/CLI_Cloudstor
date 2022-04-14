@@ -2,9 +2,9 @@
 
 ## Description
 
-[Cloudstor](https://cloudstor.aarnet.edu.au/) is AARNet's file sync, share and storage service. This guide will show you how to upload and download data via the command line interface into Cloudstor. 
+[Cloudstor](https://cloudstor.aarnet.edu.au/) is AARNet's file sync, share and storage service. This guide will show you how to upload and download data to Cloudstor via the command line interface.
 
-Note: Researchers have access to 1TB of storage. 
+Note: Researchers have access to 1TB of storage on Cloudstor.
 
 ## Create app password
 
