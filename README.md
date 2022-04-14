@@ -8,7 +8,7 @@ Note: Researchers have access to 1TB of storage.
 
 ## Create app password
 
-Cloudstor app passwords are a way to control access to your cloudstor account from other devices (e.g. your CLI platform). This step only needs to be done once per device - you can use the same app password to access your account for future transfers. 
+Cloudstor app passwords are a way to control access between your Cloudstor account and other devices (e.g. a CLI platform). This step only needs to be done once per device - you can use the same app password to access your account for future transfers. 
 
 * Log into the [Cloudstor](https://cloudstor.aarnet.edu.au/) web interface using your institutional credentials
 * Click the cog icon (settings) at the top right side of the page
