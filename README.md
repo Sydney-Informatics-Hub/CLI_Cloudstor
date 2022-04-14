@@ -42,7 +42,7 @@ Note: We recommend submitting this within a job for very large files.
 
 ### Preparing multiple files for transfer
 
-We recommend tar archiving multiple files to upload as this makes downloading them more manageable. For `my_directory` containing multiple files (e.g. `file.txt`, `file.txt.md5`) to upload:
+We recommend tar archiving multiple files into a single tar archive file as this makes downloading them more manageable. For `my_directory` containing multiple files (e.g. `file.txt`, `file.txt.md5`) to upload:
 
 ```
 # Change to the the path where my_directory is located
