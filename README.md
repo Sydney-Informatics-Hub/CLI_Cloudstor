@@ -59,7 +59,7 @@ Here is where you will use the app password generated in [Create app password](#
 curl --user 'your.email@sydney.edu.au:THE-BIG-LONG_PASSWORD' -T my_directory.tar.gz 'https://cloudstor.aarnet.edu.au/plus/remote.php/webdav/'
 ```
 
-Note: We recommend submitting this within a job for very large files.
+Note: We recommend submitting this within a job for very large files. An example PBS script for Artemis HPC is provided in this repository.
 
 You should see your file appear in Files when you log into your Cloudstor account via the web interface.
 
