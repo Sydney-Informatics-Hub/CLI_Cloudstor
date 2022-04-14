@@ -86,6 +86,8 @@ wget my_directory.tar.gz https://cloudstor.aarnet.edu.au/plus/s/XXXXXXXXXXX/down
 tar -xvf my_directory.tar.gz
 ```
 
+Note: We recommend submitting this within a job for very large files. 
+
 ### Verify files using checksums
 
 It's good practice to verify that the files you have downloaded are not corrupt. To do this, you will need the checksum (`.md5` file) for a file. 
