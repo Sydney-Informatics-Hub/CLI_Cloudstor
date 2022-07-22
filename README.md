@@ -51,6 +51,8 @@ cd /path/to
 tar -zcvf my_directory my_directory.tar.gz
 ```
 
+__WARNING__: Cloudstor does not like massive files (>~100 GB)!
+
 ### Uploading data to Cloudstor
 
 Here is where you will use the app password generated in [Create app password](#Create-app-password). In your CLI platform, to upload a file (e.g. `my_directory.tar.gz`) to Cloudstor:
